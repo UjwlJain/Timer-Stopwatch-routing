@@ -1,0 +1,38 @@
+.stopwatch-container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #7a7777;
+    border-radius: 8px;
+    background-color: transparent;
+  }
+  
+  .stopwatch-container div {
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .stopwatch-container button {
+    background-color: #64ebcc;
+    color: black;
+    border: 3px solid rgb(52, 52, 234);
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .stopwatch-container button:hover {
+    background-color: aqua;
+    border: 3px solid rgb(47, 47, 207);
+    color: black;
+  }
+  
+  .stopwatch-container button:active {
+    background-color: #6aefd0;
+    color: black;
+    border: 3px solid rgb(40, 40, 227);
+  }
+  
